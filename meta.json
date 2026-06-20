@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "schema_version": 1,
+  "last_updated": "2026-06-21T06:19:50+08:00",
+  "totals": {
+    "cctv": 44,
+    "satellite": 52,
+    "local": 102,
+    "local_known_province": 83,
+    "local_unknown_province": 1,
+    "international": 133,
+    "international_countries": 8,
+    "known_sources_channels": 135,
+    "dead_sources_probes": 133
+  },
+  "sources": {
+    "iptv_org": "https://github.com/iptv-org/iptv",
+    "iptv_app": "local:assets/data",
+    "i18n_generated_at": "2026-06-20T18:05:00+0800"
+  },
+  "schedule": "weekly Monday 03:00 Asia/Shanghai (cron: 0 19 * * 0 UTC)"
+}
