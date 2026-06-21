@@ -68,15 +68,15 @@ iptv-channels-organized/
   "last_updated": "ISO-8601",          // 最后生成时间 (Asia/Shanghai)
   "totals": {
     "cctv": 44,
-    "satellite": 52,
-    "local": 102,
-    "local_known_province": 83,
+    "satellite": 36,
+    "local": 101,
+    "local_known_province": 82,
     "local_unknown_province": 1,
     "local_national": 18,
     "international": 133,
     "international_countries": 8,
     "known_sources_channels": 135,
-    "dead_sources_probes": 133
+    "dead_sources_probes": 134
   },
   "sources": {
     "iptv_org": "https://github.com/iptv-org/iptv",
@@ -108,10 +108,10 @@ iptv-channels-organized/
 
 ```json
 {
-  "_meta": { "category": "satellite", "count": 52, "provinces": 31, "generated_at": "..." },
+  "_meta": { "category": "satellite", "count": 36, "provinces": 31, "generated_at": "..." },
   "provinces": {
-    "北京": [ { "id": "BeijingSatelliteTV.cn", ... }, ... ],
-    "浙江": [ { "id": "ZhejiangSatelliteTV.cn", ... }, { "id": "..." } ],
+    "北京": [ { "id": "北京卫视.cn", "merged_ids": ["BeijingSatelliteTV.cn", "北京卫视.cn"], ... }, ... ],
+    "浙江": [ { "id": "浙江卫视.cn", "merged_ids": ["ZhejiangSatelliteTV.cn", "浙江卫视.cn"], ... } ],
     ...
     "其他": [ ... ]   // 推断不出省份的卫星频道
   }
@@ -120,6 +120,7 @@ iptv-channels-organized/
 
 - `provinces` 键名 = 中国省/直辖市/自治区名（中文）。
 - 推断策略（按优先级）：`id` 关键词 → `alt_names` 关键词 → `name` 中文 → 推断不出则归入 `其他`。
+- **去重逻辑（v1.0.1+）**：iptv-org 把同一频道列了两次（如 `BeijingSatelliteTV.cn` + `北京卫视.cn`），build 会合并为一档，`merged_ids` 记录合并前的所有 id。
 
 ### `channels/local.json`
 

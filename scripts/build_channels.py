@@ -39,9 +39,8 @@ CCTV_PATTERN = re.compile(r"^(CCTV|CGTN)", re.IGNORECASE)
 
 # Satellite keywords — mirror iptv-app/lib/data/channel_filter.dart + Chinese 卫视
 SATELLITE_KEYWORDS = [
-    "SatelliteTV",
+    "Satellite",
     "TVInternational",
-    "SatelliteChannel",
     "卫视",
     "DragonTV",
     "PhoenixTV",  # 凤凰卫视
@@ -264,15 +263,167 @@ def build_satellite(cn_channels: List[Dict[str, Any]]) -> Dict[str, Any]:
     if "其他" in groups:
         sorted_groups["其他"] = groups["其他"]
 
+    # Dedup English/Chinese duplicate pairs (iptv-org lists some sat channels
+    # twice: e.g. BeijingSatelliteTV.cn + 北京卫视.cn). Adds a `merged_ids`
+    # field on merged channels preserving both original ids.
+    sorted_groups = _dedup_satellite_provinces(sorted_groups)
+
+    total_count = sum(len(v) for v in sorted_groups.values())
     return {
         "_meta": {
             "category": "satellite",
-            "count": len(sats),
+            "count": total_count,
             "provinces": len(sorted_groups),
             "generated_at": now_iso(),
         },
         "provinces": sorted_groups,
     }
+
+
+# ---------------------------------------------------------------------------
+# Satellite dedup helpers (integrated into build_satellite)
+# ---------------------------------------------------------------------------
+
+_ENG_ID_PATTERNS = ("Satellite", "TVInternational", "DragonTV")
+_CN_SAT_ID_PATTERN = re.compile(r"^[一-龥]+卫视\.cn$")
+
+
+def _is_eng_named_satellite(channel_id: str) -> bool:
+    return any(p in channel_id for p in _ENG_ID_PATTERNS)
+
+
+def _is_cn_named_satellite(channel_id: str) -> bool:
+    return bool(_CN_SAT_ID_PATTERN.match(channel_id))
+
+
+def _normalize_source_url(src: Any) -> str:
+    if isinstance(src, str):
+        return src
+    if isinstance(src, dict):
+        return src.get("url", "")
+    return str(src)
+
+
+def _merge_satellite_pair(primary: Dict[str, Any], secondary: Dict[str, Any]) -> Dict[str, Any]:
+    """Merge secondary into primary. Primary's id wins."""
+    merged = dict(primary)
+    primary_id = primary.get("id", "")
+    secondary_id = secondary.get("id", "")
+    if secondary_id and secondary_id != primary_id:
+        merged["merged_ids"] = sorted(set(
+            ([primary_id] if primary_id else []) +
+            ([secondary_id] if secondary_id else []) +
+            list(primary.get("merged_ids") or [])
+        ))
+
+    # categories: union dedup (preserve order)
+    cats: List[Any] = []
+    for c in (primary.get("categories") or []) + (secondary.get("categories") or []):
+        if c not in cats:
+            cats.append(c)
+    if cats:
+        merged["categories"] = cats
+
+    # alt_names: union dedup (excluding own name)
+    alt: List[Any] = []
+    for a in (primary.get("alt_names") or []) + (secondary.get("alt_names") or []):
+        if a and a not in alt and a != merged.get("name"):
+            alt.append(a)
+    merged["alt_names"] = alt
+
+    # sources: union dedup by URL
+    all_srcs = list(primary.get("sources") or []) + list(secondary.get("sources") or [])
+    seen: set = set()
+    deduped: List[Any] = []
+    for s in all_srcs:
+        u = _normalize_source_url(s)
+        if u and u not in seen:
+            seen.add(u)
+            deduped.append(s)
+    merged["sources"] = deduped
+
+    # logo / website: take whichever is non-null
+    if not merged.get("logo"):
+        sec_logo = secondary.get("logo")
+        if sec_logo:
+            merged["logo"] = sec_logo
+    if not merged.get("website"):
+        sec_web = secondary.get("website")
+        if sec_web:
+            merged["website"] = sec_web
+    return merged
+
+
+def _find_cn_partner(eng_channel: Dict[str, Any], province_channels: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    eng_alt = eng_channel.get("alt_names") or []
+    eng_id = eng_channel.get("id", "")
+    eng_name = eng_channel.get("name", "")
+
+    # Strategy 1: alt_names contains 'XX卫视' → partner is XX卫视.cn
+    for alt in eng_alt:
+        if "卫视" in alt:
+            target_id = f"{alt}.cn"
+            for c in province_channels:
+                if c.get("id") == target_id and c is not eng_channel:
+                    return c
+
+    # Strategy 2: stripped eng_name appears in partner's alt+name
+    for c in province_channels:
+        if c is eng_channel:
+            continue
+        cid = c.get("id", "")
+        if not _is_cn_named_satellite(cid):
+            continue
+        calt = c.get("alt_names") or []
+        cname = c.get("name", "")
+        if any(a in calt for a in eng_alt):
+            return c
+        stripped = re.sub(r"Satellite\s*(TV|International|Channel)", "", eng_name).strip()
+        stripped = re.sub(r"(TVInternational|DragonTV|TV)$", "", stripped).strip()
+        if stripped and stripped in " ".join(calt + [cname]):
+            return c
+
+    # Strategy 3: province has exactly 1 eng-named and 1 cn-named sat — pair them
+    eng_in_prov = [c for c in province_channels if _is_eng_named_satellite(c.get("id", ""))]
+    cn_in_prov = [c for c in province_channels if _is_cn_named_satellite(c.get("id", ""))]
+    if len(eng_in_prov) == 1 and len(cn_in_prov) == 1 and eng_channel in eng_in_prov:
+        return cn_in_prov[0]
+    return None
+
+
+def _dedup_satellite_provinces(provinces: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
+    """Merge English/Chinese duplicate pairs within each province bucket."""
+    new_provinces: Dict[str, List[Dict[str, Any]]] = {}
+    for prov, channels in provinces.items():
+        consumed: set = set()
+        new_list: List[Dict[str, Any]] = []
+        # Process English-named channels first
+        for eng in [c for c in channels if _is_eng_named_satellite(c.get("id", ""))]:
+            eng_idx = channels.index(eng)
+            if eng_idx in consumed:
+                continue
+            partner = _find_cn_partner(eng, channels)
+            if partner is not None:
+                partner_idx = channels.index(partner)
+                if partner_idx in consumed:
+                    new_list.append(eng)
+                    continue
+                if _is_cn_named_satellite(partner.get("id", "")):
+                    primary, secondary = partner, eng
+                else:
+                    primary, secondary = eng, partner
+                new_list.append(_merge_satellite_pair(primary, secondary))
+                consumed.add(eng_idx)
+                consumed.add(partner_idx)
+            else:
+                new_list.append(eng)
+                consumed.add(eng_idx)
+        for idx, c in enumerate(channels):
+            if idx not in consumed:
+                new_list.append(c)
+        new_list.sort(key=lambda c: c.get("name", ""))
+        new_provinces[prov] = new_list
+    return new_provinces
 
 
 def build_local(cn_channels: List[Dict[str, Any]]) -> Dict[str, Any]:

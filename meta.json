@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
   "schema_version": 1,
-  "last_updated": "2026-06-21T06:19:50+08:00",
+  "last_updated": "2026-06-21T09:05:00+08:00",
   "totals": {
     "cctv": 44,
-    "satellite": 52,
-    "local": 102,
-    "local_known_province": 83,
+    "satellite": 36,
+    "local": 101,
+    "local_known_province": 82,
     "local_unknown_province": 1,
     "international": 133,
     "international_countries": 8,
