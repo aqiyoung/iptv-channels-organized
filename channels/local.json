@@ -5,8 +5,7 @@
     "known_province": 82,
     "unknown_province": 1,
     "national": 18,
-    "generated_at": "2026-06-21T06:19:50+08:00",
-    "deduped_at": "2026-06-21T09:05:00+08:00"
+    "generated_at": "2026-06-21T09:17:29+08:00"
   },
   "provinces": {
     "全国/中央": [
@@ -60,8 +59,8 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV",
-          "http://121.19.134.246:808/hls/62/index.m3u8"
+          "http://121.19.134.246:808/hls/62/index.m3u8",
+          "http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV"
         ]
       },
       {
@@ -103,7 +102,7 @@
         "logoUrl": ""
       },
       {
-        "id": "CGNT.cn@CNIPTV",
+        "id": "CGNT.cn@CNIPTV_doc",
         "name": "CGNT 记录频道",
         "country": "CN",
         "region": "Asia",
@@ -279,9 +278,9 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8",
           "http://1.24.190.98:10080/hls/51/index.m3u8",
-          "http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8"
+          "http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8",
+          "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8"
         ]
       },
       {
@@ -466,8 +465,8 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "https://event.pull.hebtv.com/live/live101.m3u8",
-          "http://118.81.195.79:9003/hls/29/index.m3u8"
+          "http://118.81.195.79:9003/hls/29/index.m3u8",
+          "https://event.pull.hebtv.com/live/live101.m3u8"
         ]
       }
     ],
@@ -509,9 +508,9 @@
         "is_nsfw": false,
         "sources": [
           "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8",
+          "http://112.25.48.68/live/program/live/lnwshd/4000000/mnf.m3u8",
           "http://39.134.115.163:8080/PLTV/88888910/224/3221225735/index.m3u8",
           "http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8",
-          "http://112.25.48.68/live/program/live/lnwshd/4000000/mnf.m3u8",
           "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227410/index.m3u8"
         ]
       }
@@ -637,8 +636,8 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8",
-          "https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8"
+          "https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8",
+          "http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8"
         ]
       }
     ],
@@ -690,8 +689,8 @@
         "is_nsfw": false,
         "sources": [
           "http://118.81.195.79:9003/hls/31/index.m3u8",
-          "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8",
-          "http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG"
+          "http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG",
+          "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8"
         ]
       }
     ],
@@ -728,8 +727,8 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8",
-          "http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY"
+          "http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY",
+          "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8"
         ]
       },
       {
@@ -746,8 +745,8 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8",
-          "http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS"
+          "http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS",
+          "http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8"
         ]
       },
       {
@@ -1459,9 +1458,9 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
+          "http://125.210.152.18:9090/live/GZWSHD_H265.m3u8",
           "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU",
-          "http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8",
-          "http://125.210.152.18:9090/live/GZWSHD_H265.m3u8"
+          "http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8"
         ]
       }
     ],
@@ -1766,11 +1765,11 @@
         "is_nsfw": false,
         "sources": [
           {
-            "url": "http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8",
+            "url": "http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8",
             "type": "hls"
           },
           {
-            "url": "http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8",
+            "url": "http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8",
             "type": "hls"
           }
         ]
@@ -1788,11 +1787,11 @@
         "is_nsfw": false,
         "sources": [
           {
-            "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8",
+            "url": "http://125.210.152.18:9090/live/FHZX_1200.m3u8",
             "type": "hls"
           },
           {
-            "url": "http://125.210.152.18:9090/live/FHZX_1200.m3u8",
+            "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8",
             "type": "hls"
           }
         ]
@@ -1823,9 +1822,9 @@
         "website": null,
         "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰中文.png",
         "sources": [
+          "http://218.206.193.218:8888/hls/66/index.m3u8",
           "http://zmgd.zyrnet.com:8888/hls/110/index.m3u8",
-          "http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1",
-          "http://218.206.193.218:8888/hls/66/index.m3u8"
+          "http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1"
         ],
         "is_nsfw": false
       },

@@ -3,7 +3,7 @@
     "category": "cctv",
     "count": 44,
     "groups_count": 40,
-    "generated_at": "2026-06-21T06:19:50+08:00"
+    "generated_at": "2026-06-21T09:17:29+08:00"
   },
   "groups": {
     "CCTV1": [
@@ -22,17 +22,10 @@
         "is_nsfw": false,
         "sources": [
           "http://69.30.245.50/live/cctv1.m3u8",
-          "http://198.204.240.250:82/live/cctv1.m3u8",
           "http://74.91.26.218:82/live/cctv1hd.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub",
+          "http://198.204.240.250:82/live/cctv1.m3u8",
           "http://207.56.13.146:81/cdnlive/cctv1.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009",
-          "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd",
-          "http://play.kankanlive.com/live/1698234869325962.m3u8",
-          "http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1",
-          "http://222.169.85.8:9901/tsfile/live/0001_1.m3u8",
-          "http://124.228.160.176:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0"
+          "http://222.169.85.8:9901/tsfile/live/0001_1.m3u8"
         ],
         "cctvSource": [
           "http://198.204.240.250:82/live/cctv1.m3u8"
@@ -55,10 +48,6 @@
         "is_nsfw": false,
         "sources": [
           {
-            "url": "http://74.91.26.218:82/live/cctv2hd.m3u8",
-            "type": "hls"
-          },
-          {
             "url": "http://go.bkpcp.top/mg/cctv2",
             "type": "hls"
           },
@@ -66,14 +55,12 @@
             "url": "http://ivi.bupt.edu.cn/hls/cctv2.m3u8",
             "type": "hls"
           },
-          "http://112.123.243.37:50085/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://222.223.41.27:8888/hls/2/index.m3u8",
-          "http://221.226.51.220:50081/newlive/live/hls/2/live.m3u8",
           "http://198.204.228.26/live/cctv2hd.m3u8",
           "http://192.151.150.154/live/cctv2hd.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009",
-          "http://173.208.212.130:8181/720p/cctv2.m3u8",
-          "http://113.25.252.226:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0"
+          {
+            "url": "http://74.91.26.218:82/live/cctv2hd.m3u8",
+            "type": "hls"
+          }
         ],
         "cctvSource": []
       }
@@ -93,13 +80,11 @@
         "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png",
         "is_nsfw": false,
         "sources": [
-          "http://74.91.26.218:82/live/cctv3hd.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://222.223.41.27:8888/hls/3/index.m3u8",
           "http://198.204.228.26/live/cctv3hd.m3u8",
+          "http://74.91.26.218:82/live/cctv3hd.m3u8",
+          "http://222.223.41.27:8888/hls/3/index.m3u8",
           "http://173.208.212.130:8181/720p/cctv3.m3u8",
-          "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd",
-          "http://120.198.95.220:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1"
+          "http://112.123.243.37:50085/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0"
         ],
         "cctvSource": []
       }
@@ -116,14 +101,10 @@
         "website": null,
         "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png",
         "sources": [
-          "http://112.123.243.37:50085/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://120.198.95.220:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1",
-          "http://222.223.41.27:8888/hls/4/index.m3u8",
           "http://107.150.60.122/live/cctv4hd.m3u8",
           "http://74.91.26.218:82/live/cctv4hd.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv4hd.m3u8?auth=test20251009",
+          "http://222.223.41.27:8888/hls/4/index.m3u8",
           "http://173.208.212.130:8181/720p/cctv4.m3u8",
-          "http://221.226.51.220:50081/newlive/live/hls/4/live.m3u8",
           "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1781938800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-f97e1b4b766b8d374536f815e2648287&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c"
         ],
         "is_nsfw": false
@@ -260,33 +241,19 @@
         "is_nsfw": false,
         "sources": [
           {
-            "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8",
+            "url": "https://live.fanmingming.com/cctv5.m3u8",
             "type": "hls"
           },
+          "http://74.91.26.218:82/live/cctv5p.m3u8",
+          "http://74.91.26.218:82/live/cctv5hd.m3u8",
           {
             "url": "http://ott.mobaibox.com/PLTV/3/224/3221226019/index.m3u8",
             "type": "hls"
           },
           {
-            "url": "http://74.91.26.218:82/live/cctv5plus.m3u8",
+            "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8",
             "type": "hls"
-          },
-          {
-            "url": "https://live.fanmingming.com/cctv5.m3u8",
-            "type": "hls"
-          },
-          "http://120.198.95.220:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&down=1",
-          "http://112.123.243.37:50085/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://222.223.41.27:8888/hls/5/index.m3u8",
-          "http://116.128.243.121:9905/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009",
-          "http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub",
-          "http://74.91.26.218:82/live/cctv5hd.m3u8",
-          "http://173.208.212.130:8181/720p/cctv5.m3u8",
-          "http://221.226.51.220:50081/newlive/live/hls/5/live.m3u8",
-          "http://74.91.26.218:82/live/cctv5p.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009",
-          "http://207.56.13.146:81/cdnlive/cctv5p.m3u8"
+          }
         ],
         "cctvSource": []
       }
@@ -307,19 +274,19 @@
         "is_nsfw": false,
         "sources": [
           {
-            "url": "http://74.91.26.218:82/live/cctv5plus.m3u8",
-            "type": "hls"
-          },
-          {
             "url": "http://go.bkpcp.top/mg/cctv5plus",
             "type": "hls"
           },
           {
-            "url": "http://198.204.240.250:82/live/cctv5+.m3u8",
+            "url": "http://198.204.240.250:82/live/cctv5.m3u8",
             "type": "hls"
           },
           {
-            "url": "http://198.204.240.250:82/live/cctv5.m3u8",
+            "url": "http://74.91.26.218:82/live/cctv5plus.m3u8",
+            "type": "hls"
+          },
+          {
+            "url": "http://198.204.240.250:82/live/cctv5+.m3u8",
             "type": "hls"
           },
           "http://112.123.243.37:50085/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0"
@@ -343,14 +310,10 @@
         "is_nsfw": false,
         "sources": [
           "http://69.30.245.50/live/cctv6.m3u8",
-          "http://198.204.240.250:82/live/cctv6.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://120.198.95.220:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&down=1",
           "http://198.204.228.26/live/cctv6hd.m3u8",
+          "http://198.204.240.250:82/live/cctv6.m3u8",
           "http://222.223.41.27:8888/hls/6/index.m3u8",
-          "http://173.208.212.130:8181/720p/cctv6.m3u8",
-          "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd",
-          "http://221.226.51.220:50081/newlive/live/hls/6/live.m3u8"
+          "http://173.208.212.130:8181/720p/cctv6.m3u8"
         ],
         "cctvSource": [
           "http://198.204.240.250:82/live/cctv6.m3u8"
@@ -372,10 +335,10 @@
         "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png",
         "is_nsfw": false,
         "sources": [
+          "http://107.150.60.122/live/cctv7hd.m3u8",
           "http://74.91.26.218:82/live/cctv7hd.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0",
           "http://222.223.41.27:8888/hls/7/index.m3u8",
-          "http://107.150.60.122/live/cctv7hd.m3u8"
+          "http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0"
         ],
         "cctvSource": []
       }
@@ -395,16 +358,11 @@
         "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png",
         "is_nsfw": false,
         "sources": [
-          "http://74.91.26.218:82/live/cctv8hd.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://222.223.41.27:8888/hls/8/index.m3u8",
-          "http://120.202.94.181:9446/tsfile/live/0008_1.m3u8?key=txiptv",
           "http://192.151.150.154/live/cctv8k.m3u8",
-          "http://173.208.212.130:8181/720p/cctv8k.m3u8",
-          "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k",
+          "http://74.91.26.218:82/live/cctv8hd.m3u8",
+          "http://222.223.41.27:8888/hls/8/index.m3u8",
           "http://173.208.212.130:8181/720p/cctv8.m3u8",
-          "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8hd",
-          "http://120.198.95.220:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1"
+          "http://173.208.212.130:8181/720p/cctv8k.m3u8"
         ],
         "cctvSource": [
           "http://198.204.240.250:82/live/cctv8.m3u8"
@@ -451,8 +409,8 @@
         "is_nsfw": false,
         "sources": [
           "https://xykt-fix.github.io/Y77.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://222.223.41.27:8888/hls/9/index.m3u8"
+          "http://222.223.41.27:8888/hls/9/index.m3u8",
+          "http://112.123.243.37:50085/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0"
         ],
         "cctvSource": []
       },
@@ -494,14 +452,10 @@
         "is_nsfw": false,
         "sources": [
           "http://74.91.26.218:82/live/cctv10hd.m3u8",
-          "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8",
           "http://222.223.41.27:8888/hls/10/index.m3u8",
           "http://207.56.13.146:81/cdnlive/cctv10.m3u8",
-          "http://116.128.243.121:9905/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0",
           "http://60.10.139.113:8801/hls/10/index.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009",
-          "http://124.228.160.176:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0",
-          "http://36.136.38.87:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0"
+          "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
         ],
         "cctvSource": [
           "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
@@ -548,10 +502,6 @@
         "is_nsfw": false,
         "sources": [
           {
-            "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
-            "type": "hls"
-          },
-          {
             "url": "http://go.bkpcp.top/mg/cctv12",
             "type": "hls"
           },
@@ -559,12 +509,12 @@
             "url": "http://ivi.bupt.edu.cn/hls/cctv12.m3u8",
             "type": "hls"
           },
-          "http://112.123.243.37:50085/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://120.198.95.220:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&down=1",
           "http://198.204.228.26/live/cctv12hd.m3u8",
-          "http://118.193.115.2:9901/tsfile/live/0012_1.m3u8?key=txiptv",
-          "http://173.208.212.130:8181/720p/cctv12.m3u8",
-          "http://124.228.160.176:9901/tsfile/live/0012_2.m3u8?key=txiptv&playlive=1&authid=0"
+          {
+            "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
+            "type": "hls"
+          },
+          "http://173.208.212.130:8181/720p/cctv12.m3u8"
         ],
         "cctvSource": []
       }
@@ -588,13 +538,8 @@
           "http://go.bkpcp.top/mg/cctv13",
           "https://cdn3.163189.xyz/163189/cctv13",
           "http://74.91.26.218:82/live/cctv13hd.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
           "https://event.pull.hebtv.com/jishi/cp1.m3u8",
-          "http://222.223.41.27:8888/hls/13/index.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009",
-          "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd",
-          "http://173.208.212.130:8181/720p/cctv13.m3u8",
-          "http://36.136.38.87:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0"
+          "http://222.223.41.27:8888/hls/13/index.m3u8"
         ],
         "cctvSource": [
           "http://ldncctvwbcdtxy.liveplay.myqcloud.com/ldncctvwbcd/cdrmldcctv13_1_ud.m3u8"
@@ -618,8 +563,8 @@
         "sources": [
           "http://74.91.26.218:82/live/cctv14hd.m3u8",
           "https://event.pull.hebtv.com/jishi/cp2.m3u8",
-          "http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009",
-          "http://173.208.212.130:8181/720p/cctv14.m3u8"
+          "http://173.208.212.130:8181/720p/cctv14.m3u8",
+          "http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009"
         ],
         "cctvSource": [
           "https://cdn4.skygo.mn/live/disk1/CCTV-14/HLSv3-FTA/CCTV-14.m3u8"
@@ -641,14 +586,11 @@
         "logo": "https://live.fanmingming.com/tv/CCTV15.png",
         "is_nsfw": false,
         "sources": [
-          "https://xykt-fix.github.io/play/a02e/index.m3u8",
           "http://74.91.26.218:82/live/cctv15hd.m3u8",
-          "https://piccpndks.v.kcdnvip.com/audio/cctv15_2/index.m3u8",
-          "http://112.123.243.37:50085/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "http://120.198.95.220:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&down=1",
           "http://222.223.41.27:8888/hls/15/index.m3u8",
           "http://207.56.13.146:81/cdnlive/cctv15.m3u8",
-          "http://124.228.160.176:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0"
+          "https://xykt-fix.github.io/play/a02e/index.m3u8",
+          "https://piccpndks.v.kcdnvip.com/audio/cctv15_2/index.m3u8"
         ],
         "cctvSource": []
       },
@@ -939,11 +881,11 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
           "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+          "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
           "https://global.cgtn.cicc.media.caton.cloud/master/cgtn.m3u8",
-          "http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225917/index.m3u8",
-          "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8"
+          "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+          "http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225917/index.m3u8"
         ]
       }
     ],
@@ -979,9 +921,9 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8",
+          "https://dash3.antik.sk/live/test_cgtn_doc/playlist.m3u8",
           "https://global.cgtn.cicc.media.caton.cloud/master/cgtn-documentary.m3u8",
-          "https://dash3.antik.sk/live/test_cgtn_doc/playlist.m3u8"
+          "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8"
         ]
       }
     ],
@@ -1000,8 +942,8 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8",
-          "https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8"
+          "https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8",
+          "https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8"
         ]
       }
     ],
@@ -1020,9 +962,9 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
           "https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8",
-          "https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8"
+          "https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8",
+          "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8"
         ]
       }
     ],
@@ -1041,10 +983,10 @@
         "logo": null,
         "is_nsfw": false,
         "sources": [
-          "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
-          "https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist.m3u8",
+          "https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8",
           "https://global.cgtn.cicc.media.caton.cloud/master/cgtn-espanol.m3u8",
-          "https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8"
+          "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+          "https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist.m3u8"
         ]
       }
     ]
