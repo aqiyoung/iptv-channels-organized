@@ -3,7 +3,7 @@
     "category": "cctv",
     "count": 44,
     "groups_count": 40,
-    "generated_at": "2026-06-22T04:20:50+08:00"
+    "generated_at": "2026-06-29T04:07:35+08:00"
   },
   "groups": {
     "CCTV1": [
@@ -12,7 +12,7 @@
         "name": "CCTV-1",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-1 综合"
@@ -38,7 +38,7 @@
         "name": "CCTV-2",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-2"
@@ -71,7 +71,7 @@
         "name": "CCTV-3",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-3 综艺"
@@ -95,7 +95,7 @@
         "name": "CCTV-4",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [],
         "website": null,
@@ -116,7 +116,7 @@
         "name": "CCTV-4 America",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-4 中文国际美洲"
@@ -135,7 +135,7 @@
         "name": "CCTV-4 Asia",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-4 中文国际亚洲"
@@ -154,7 +154,7 @@
         "name": "CCTV-4 Europe",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-4 中文国际欧洲"
@@ -173,7 +173,7 @@
         "name": "CCTV-4K",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-4K 超高清"
@@ -194,7 +194,7 @@
         "country": "CN",
         "region": "Asia",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-4K 高清"
@@ -214,7 +214,7 @@
         "name": "CCTV-4K (1080p)",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [],
         "website": null,
@@ -231,7 +231,7 @@
         "name": "CCTV-5",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-5 体育"
@@ -264,7 +264,7 @@
         "name": "CCTV-5+",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-5+ 体育赛事"
@@ -300,7 +300,7 @@
         "name": "CCTV-6",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-6 电影"
@@ -326,7 +326,7 @@
         "name": "CCTV-7",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-7 国防军事"
@@ -349,7 +349,7 @@
         "name": "CCTV-8",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-8 电视剧"
@@ -375,7 +375,7 @@
         "name": "CCTV8K",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [],
         "website": null,
@@ -399,7 +399,7 @@
         "name": "CCTV-9",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-9 纪录"
@@ -420,7 +420,7 @@
         "country": "CN",
         "region": "Asia",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-9 纪录"
@@ -442,7 +442,7 @@
         "name": "CCTV-10",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-10 科教"
@@ -468,7 +468,7 @@
         "name": "CCTV-11",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-11 戏曲"
@@ -492,7 +492,7 @@
         "name": "CCTV-12",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-12"
@@ -525,7 +525,7 @@
         "name": "CCTV-13",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-13 新闻",
@@ -552,7 +552,7 @@
         "name": "CCTV-14",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-14 少儿"
@@ -577,7 +577,7 @@
         "name": "CCTV-15",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-15 音乐"
@@ -600,7 +600,7 @@
         "country": "CN",
         "region": "Asia",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-15 音乐"
@@ -622,7 +622,7 @@
         "name": "CCTV-16",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-16 奥林匹克"
@@ -642,7 +642,7 @@
         "name": "CCTV-17",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-17 农业农村"
@@ -663,7 +663,7 @@
         "country": "CN",
         "region": "Asia",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-16 4K"
@@ -685,7 +685,7 @@
         "name": "CCTV-16奥林匹克",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [],
         "website": null,
@@ -702,7 +702,7 @@
         "name": "CCTV-Billiards",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-央视台球"
@@ -721,7 +721,7 @@
         "name": "CCTV-Golf & Tennis",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-高尔夫·网球"
@@ -740,7 +740,7 @@
         "name": "CCTV-Storm Football",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-风云足球"
@@ -759,7 +759,7 @@
         "name": "CCTV-Storm Music",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-风云音乐"
@@ -778,7 +778,7 @@
         "name": "CCTV-Storm Theater",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-风云剧场"
@@ -797,7 +797,7 @@
         "name": "CCTV-The First Theater",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-第一剧场"
@@ -816,7 +816,7 @@
         "name": "CCTV-Weapon & Technology",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-兵器科技"
@@ -835,7 +835,7 @@
         "name": "CCTVWomensFashion",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [],
         "website": null,
@@ -855,7 +855,7 @@
         "name": "CCTV-World Geography",
         "country": "CN",
         "categories": [
-          "cctv"
+          "央视"
         ],
         "alt_names": [
           "CCTV-世界地理"
@@ -874,7 +874,7 @@
         "name": "CGTN",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [],
         "website": "https://www.cgtn.com/tv",
@@ -895,7 +895,7 @@
         "name": "CGTN Arabic",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "CGTN العربية"
@@ -914,7 +914,7 @@
         "name": "CGTN Documentary",
         "country": "CN",
         "categories": [
-          "documentary"
+          "新闻"
         ],
         "alt_names": [],
         "website": "https://www.cgtn.com/channel/documentary",
@@ -933,7 +933,7 @@
         "name": "CGTN French",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "CGTN Français"
@@ -953,7 +953,7 @@
         "name": "CGTN Russian",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "CGTN Pусский"
@@ -974,7 +974,7 @@
         "name": "CGTN Spanish",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "CGTN Español"

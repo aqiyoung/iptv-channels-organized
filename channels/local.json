@@ -5,7 +5,7 @@
     "known_province": 82,
     "unknown_province": 1,
     "national": 18,
-    "generated_at": "2026-06-22T04:20:50+08:00"
+    "generated_at": "2026-06-29T04:07:35+08:00"
   },
   "provinces": {
     "全国/中央": [
@@ -14,7 +14,7 @@
         "name": "AndoTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -32,7 +32,7 @@
         "name": "BreadTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -50,7 +50,7 @@
         "name": "CETV-1",
         "country": "CN",
         "categories": [
-          "education"
+          "地方"
         ],
         "alt_names": [
           "中国教育电视台"
@@ -68,7 +68,7 @@
         "name": "CETV-2",
         "country": "CN",
         "categories": [
-          "education"
+          "地方"
         ],
         "alt_names": [
           "中国教育电视台"
@@ -86,7 +86,7 @@
         "country": "CN",
         "region": "Asia",
         "categories": [
-          "cctv"
+          "新闻"
         ],
         "alt_names": [
           "CGNT 新闻频道"
@@ -107,7 +107,7 @@
         "country": "CN",
         "region": "Asia",
         "categories": [
-          "cctv"
+          "地方"
         ],
         "alt_names": [
           "CGNT 记录频道"
@@ -127,7 +127,7 @@
         "name": "CHC Action",
         "country": "CN",
         "categories": [
-          "movies"
+          "影视"
         ],
         "alt_names": [
           "CHC动作电影"
@@ -144,7 +144,7 @@
         "name": "CHCHomeTheater",
         "country": "CN",
         "categories": [
-          "general"
+          "影视"
         ],
         "alt_names": [],
         "website": null,
@@ -162,7 +162,7 @@
         "name": "CND Film Discovery Channel",
         "country": "CN",
         "categories": [
-          "documentary"
+          "地方"
         ],
         "alt_names": [
           "中央新影-发现之旅"
@@ -179,9 +179,7 @@
         "name": "China Travel",
         "country": "CN",
         "categories": [
-          "documentary",
-          "travel",
-          "culture"
+          "地方"
         ],
         "alt_names": [
           "China Travel CGTN"
@@ -198,7 +196,7 @@
         "name": "ChinaWeatherChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -216,8 +214,7 @@
         "name": "Discovering China",
         "country": "CN",
         "categories": [
-          "documentary",
-          "culture"
+          "地方"
         ],
         "alt_names": [
           "Discovering China CGTN"
@@ -234,7 +231,7 @@
         "name": "DocumentaryHumanitiesChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -252,7 +249,7 @@
         "name": "FengshangShoppingChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -270,8 +267,7 @@
         "name": "Golden Eagle Cartoon",
         "country": "CN",
         "categories": [
-          "animation",
-          "kids"
+          "少儿"
         ],
         "alt_names": [],
         "website": "https://www.maijimaiji.cn/",
@@ -288,7 +284,7 @@
         "name": "VoATVChina",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -306,8 +302,7 @@
         "name": "You Man Cartoon Channel",
         "country": "CN",
         "categories": [
-          "animation",
-          "kids"
+          "少儿"
         ],
         "alt_names": [],
         "website": null,
@@ -323,7 +318,7 @@
         "name": "金鹰卡通",
         "country": "CN",
         "categories": [
-          "kids"
+          "少儿"
         ],
         "alt_names": [],
         "website": null,
@@ -340,7 +335,7 @@
         "name": "BRTV Kaku Childrens Channel",
         "country": "CN",
         "categories": [
-          "kids"
+          "少儿"
         ],
         "alt_names": [
           "BRTV 卡酷少儿"
@@ -357,7 +352,7 @@
         "name": "Fangshan TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "房山电视",
@@ -377,7 +372,7 @@
         "name": "STV City",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "都市频道"
@@ -394,8 +389,7 @@
         "name": "STV News and General",
         "country": "CN",
         "categories": [
-          "news",
-          "general"
+          "新闻"
         ],
         "alt_names": [
           "STV 新闻综合频道"
@@ -412,8 +406,7 @@
         "name": "Shanghai Education Television Station",
         "country": "CN",
         "categories": [
-          "education",
-          "culture"
+          "科教"
         ],
         "alt_names": [
           "上海教育电视台"
@@ -432,7 +425,7 @@
         "name": "TianjinTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -456,7 +449,7 @@
         "name": "Hebei TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "河北电视台"
@@ -476,7 +469,7 @@
         "name": "ShanxiTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -500,7 +493,7 @@
         "name": "Liaoning TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": "http://www.lntv.cn/",
@@ -521,7 +514,7 @@
         "name": "Baicheng TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "白城新闻综合频道"
@@ -538,7 +531,7 @@
         "name": "Jilin Movie Channel",
         "country": "CN",
         "categories": [
-          "movies"
+          "影视"
         ],
         "alt_names": [
           "影视频道"
@@ -555,9 +548,7 @@
         "name": "Jilin Rural Channel",
         "country": "CN",
         "categories": [
-          "lifestyle",
-          "science",
-          "education"
+          "地方"
         ],
         "alt_names": [
           "乡村频道"
@@ -574,7 +565,7 @@
         "name": "JilinCityChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -592,7 +583,7 @@
         "name": "JilinLifestyleChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -610,7 +601,7 @@
         "name": "Siping TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "四平广播电视台"
@@ -627,7 +618,7 @@
         "name": "Tonghua TV",
         "country": "CN",
         "categories": [
-          "news"
+          "地方"
         ],
         "alt_names": [
           "通化县广播电视台"
@@ -647,7 +638,7 @@
         "name": "Harbin Comprehensive News Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "新闻综合频道"
@@ -664,7 +655,7 @@
         "name": "Harbin Movie Channel",
         "country": "CN",
         "categories": [
-          "movies"
+          "影视"
         ],
         "alt_names": [],
         "website": "https://www.hrbtv.net/folder79/folder87/",
@@ -679,7 +670,7 @@
         "name": "Heilongjiang TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "黑龙江电视台"
@@ -700,7 +691,7 @@
         "name": "Jiangsu City Channel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "江苏城市频道"
@@ -718,7 +709,7 @@
         "name": "Jiangsu Educational Channel",
         "country": "CN",
         "categories": [
-          "education"
+          "科教"
         ],
         "alt_names": [
           "江苏教育频道"
@@ -736,7 +727,7 @@
         "name": "Jiangsu Movie Channel",
         "country": "CN",
         "categories": [
-          "movies"
+          "影视"
         ],
         "alt_names": [
           "江苏影视频道"
@@ -754,7 +745,7 @@
         "name": "Jiangsu Public & News Channel",
         "country": "CN",
         "categories": [
-          "general"
+          "新闻"
         ],
         "alt_names": [
           "江苏公共新闻"
@@ -771,7 +762,7 @@
         "name": "Jiangsu Sports & Leisure Channel",
         "country": "CN",
         "categories": [
-          "sports"
+          "体育"
         ],
         "alt_names": [
           "江苏体育休闲频道"
@@ -790,7 +781,7 @@
         "name": "Jiangsu Variety Channel",
         "country": "CN",
         "categories": [
-          "entertainment"
+          "娱乐"
         ],
         "alt_names": [
           "江苏综艺频道"
@@ -807,7 +798,7 @@
         "name": "XuzhouEconomicLifeChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "财经"
         ],
         "alt_names": [],
         "website": null,
@@ -827,7 +818,7 @@
         "name": "ZhejiangInternationalChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -847,7 +838,7 @@
         "name": "Chuzhou News Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "滁州市广播电视台 新闻综合频道"
@@ -864,7 +855,7 @@
         "name": "Chuzhou Public Channel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "滁州市广播电视台 公共频道"
@@ -881,8 +872,7 @@
         "name": "Chuzhou Science & Education Channel",
         "country": "CN",
         "categories": [
-          "science",
-          "education"
+          "科教"
         ],
         "alt_names": [
           "滁州市广播电视台 科教频道"
@@ -902,8 +892,7 @@
         "name": "Jiangxi Children's Channel",
         "country": "CN",
         "categories": [
-          "kids",
-          "animation"
+          "少儿"
         ],
         "alt_names": [
           "少儿频道"
@@ -920,7 +909,7 @@
         "name": "Jiangxi City Channel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "都市频道"
@@ -937,7 +926,7 @@
         "name": "Jiangxi Movie Channel",
         "country": "CN",
         "categories": [
-          "movies"
+          "影视"
         ],
         "alt_names": [
           "影视·旅游频道"
@@ -954,7 +943,7 @@
         "name": "Jiangxi Public & Agriculture Channel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "公共·农业频道"
@@ -971,7 +960,7 @@
         "name": "JiangxiEconomyLifeChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -989,7 +978,7 @@
         "name": "JiangxiTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1011,7 +1000,7 @@
         "name": "Nanchang News & Generalist Channel",
         "country": "CN",
         "categories": [
-          "general"
+          "新闻"
         ],
         "alt_names": [
           "新闻综合频道"
@@ -1028,7 +1017,7 @@
         "name": "Pingxiang TV News Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [],
         "website": null,
@@ -1045,7 +1034,7 @@
         "name": "Jiuquan TV News Comprehensive Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [],
         "website": null,
@@ -1060,7 +1049,7 @@
         "name": "QTV-1",
         "country": "CN",
         "categories": [
-          "news"
+          "地方"
         ],
         "alt_names": [
           "新闻综合频道"
@@ -1077,7 +1066,7 @@
         "name": "QTV-3",
         "country": "CN",
         "categories": [
-          "movies"
+          "地方"
         ],
         "alt_names": [
           "影视频道"
@@ -1094,7 +1083,7 @@
         "name": "QTV-4",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "休闲资讯频道"
@@ -1111,7 +1100,7 @@
         "name": "QTV-5",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "都市频道"
@@ -1128,8 +1117,7 @@
         "name": "QTV-6",
         "country": "CN",
         "categories": [
-          "lifestyle",
-          "kids"
+          "地方"
         ],
         "alt_names": [
           "青少旅游频道"
@@ -1146,7 +1134,7 @@
         "name": "QTV2",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1164,7 +1152,7 @@
         "name": "Shandong TV Children's Channel",
         "country": "CN",
         "categories": [
-          "kids"
+          "少儿"
         ],
         "alt_names": [],
         "website": null,
@@ -1179,7 +1167,7 @@
         "name": "Shandong TV Sports Channel",
         "country": "CN",
         "categories": [
-          "sports"
+          "体育"
         ],
         "alt_names": [],
         "website": null,
@@ -1194,7 +1182,7 @@
         "name": "ShandongTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1216,7 +1204,7 @@
         "name": "ShandongTVAgriculturalScienceChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "科教"
         ],
         "alt_names": [],
         "website": null,
@@ -1234,7 +1222,7 @@
         "name": "ShandongTVLifeChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1252,7 +1240,7 @@
         "name": "ShandongTVQiluChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1270,7 +1258,7 @@
         "name": "ShandongTVVarietyChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "娱乐"
         ],
         "alt_names": [],
         "website": null,
@@ -1290,7 +1278,7 @@
         "name": "Hebi News Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [],
         "website": null,
@@ -1307,7 +1295,7 @@
         "name": "Hunan News Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "长沙新闻频道"
@@ -1324,7 +1312,7 @@
         "name": "HunanPoliticsLawChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1342,7 +1330,7 @@
         "name": "HunanTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1360,7 +1348,7 @@
         "name": "HunanWomensChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1380,7 +1368,7 @@
         "name": "Guangzhou TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": "http://www.gztv.com/",
@@ -1397,7 +1385,7 @@
         "name": "Liangshan TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [
           "凉山彝语频道"
@@ -1414,7 +1402,7 @@
         "name": "SichuanTVWomenandChildrenChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "少儿"
         ],
         "alt_names": [],
         "website": null,
@@ -1434,7 +1422,7 @@
         "name": "Anshun Comprehensive News Channel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "安顺新闻综合频道"
@@ -1451,7 +1439,7 @@
         "name": "Guizhou TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": "https://www.gzstv.com/",
@@ -1470,7 +1458,7 @@
         "name": "XianBusinessInformationChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1488,7 +1476,7 @@
         "name": "XianSilkRoadChannel",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1508,7 +1496,7 @@
         "name": "DunhuangTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1526,7 +1514,7 @@
         "name": "Gansu TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": "https://www.gstv.com.cn/",
@@ -1541,7 +1529,7 @@
         "name": "Hezheng TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1558,7 +1546,7 @@
         "name": "QinghaiTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1582,7 +1570,7 @@
         "name": "Chifeng Comprehensive News Chanel",
         "country": "CN",
         "categories": [
-          "news"
+          "新闻"
         ],
         "alt_names": [
           "新闻综合频道"
@@ -1599,7 +1587,7 @@
         "name": "Nei Monggol TV 2 Mongolian Culture Channel",
         "country": "CN",
         "categories": [
-          "culture"
+          "地方"
         ],
         "alt_names": [],
         "website": "http://www.nmtv.cn/",
@@ -1614,7 +1602,7 @@
         "name": "NeiMonggolTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1638,7 +1626,7 @@
         "name": "Guangxi TV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": "http://vod.gxtv.cn/",
@@ -1655,7 +1643,7 @@
         "name": "XizangTVTibetan",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1675,7 +1663,7 @@
         "name": "XinjiangTV1",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1693,7 +1681,7 @@
         "name": "XinjiangTV2",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1715,7 +1703,7 @@
         "name": "XinjiangTV3",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1737,7 +1725,7 @@
         "name": "XinjiangTV8",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1757,7 +1745,7 @@
         "name": "PhoenixChineseChannel.hk",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1779,7 +1767,7 @@
         "name": "PhoenixInfoNewsChannel.hk",
         "country": "CN",
         "categories": [
-          "general"
+          "新闻"
         ],
         "alt_names": [],
         "website": null,
@@ -1801,7 +1789,7 @@
         "name": "TV BRICS Chinese",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1816,7 +1804,7 @@
         "name": "凤凰中文",
         "country": "CN",
         "categories": [
-          "news"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1833,7 +1821,7 @@
         "name": "凤凰香港",
         "country": "CN",
         "categories": [
-          "news"
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -1852,7 +1840,7 @@
         "name": "HighChannelTV",
         "country": "CN",
         "categories": [
-          "general"
+          "地方"
         ],
         "alt_names": [],
         "website": null,

@@ -3,7 +3,7 @@
     "category": "satellite",
     "count": 36,
     "provinces": 31,
-    "generated_at": "2026-06-22T04:20:50+08:00"
+    "generated_at": "2026-06-29T04:07:35+08:00"
   },
   "provinces": {
     "北京": [
@@ -12,8 +12,7 @@
         "name": "北京卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": "https://www.brtn.cn/btv/",
@@ -39,7 +38,7 @@
         "name": "天津卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -60,8 +59,8 @@
         "name": "重庆卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视",
+          "地方"
         ],
         "alt_names": [],
         "website": null,
@@ -88,7 +87,7 @@
         "name": "河北卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -107,7 +106,7 @@
         "name": "山西卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -128,7 +127,7 @@
         "name": "辽宁卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -147,8 +146,7 @@
         "name": "吉林卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": "http://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=9",
@@ -174,7 +172,7 @@
         "name": "黑龙江卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -193,7 +191,7 @@
         "name": "Jiangsu Satellite TV",
         "country": "CN",
         "categories": [
-          "general"
+          "卫视"
         ],
         "alt_names": [
           "江苏卫视"
@@ -219,8 +217,7 @@
         "name": "浙江卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -253,8 +250,7 @@
         "name": "安徽卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -287,7 +283,7 @@
         "name": "江西卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -307,8 +303,7 @@
         "name": "山东卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": "https://www.cbbn.net/folder253/folder337?channel_id=23",
@@ -334,8 +329,7 @@
         "name": "河南卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -362,8 +356,7 @@
         "name": "湖北卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -392,7 +385,7 @@
         "name": "湖南卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -411,8 +404,7 @@
         "name": "广东卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -439,8 +431,7 @@
         "name": "深圳卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -471,8 +462,7 @@
         "name": "海南卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -497,8 +487,7 @@
         "name": "四川卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -531,7 +520,7 @@
         "name": "贵州卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -549,8 +538,7 @@
         "name": "云南卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": "http://www.yntv.cn/live.html",
@@ -580,7 +568,7 @@
         "name": "陕西卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -601,7 +589,7 @@
         "name": "甘肃卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -620,7 +608,7 @@
         "name": "青海卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -638,7 +626,7 @@
         "name": "内蒙古卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -658,7 +646,7 @@
         "name": "广西卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -679,7 +667,7 @@
         "name": "西藏卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -699,8 +687,7 @@
         "name": "宁夏卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "entertainment"
+          "卫视"
         ],
         "alt_names": [
           "卫视频道"
@@ -730,7 +717,7 @@
         "name": "新疆卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -751,7 +738,7 @@
         "name": "香港卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -768,7 +755,7 @@
         "name": "三沙卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -783,7 +770,7 @@
         "name": "东南卫视",
         "country": "CN",
         "categories": [
-          "satellite"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -802,8 +789,7 @@
         "name": "东方卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": "https://weibo.com/dongfangweishifqt",
@@ -827,8 +813,7 @@
         "name": "兵团卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
@@ -852,8 +837,7 @@
         "name": "延边卫视",
         "country": "CN",
         "categories": [
-          "satellite",
-          "general"
+          "卫视"
         ],
         "alt_names": [],
         "website": null,
