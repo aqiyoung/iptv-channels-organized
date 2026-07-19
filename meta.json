@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "schema_version": 1,
-  "last_updated": "2026-07-13T04:02:22+08:00",
+  "last_updated": "2026-07-20T04:03:19+08:00",
   "totals": {
     "cctv": 44,
     "satellite": 36,
@@ -10,8 +10,8 @@
     "local_unknown_province": 1,
     "international": 106,
     "international_countries": 8,
-    "known_sources_channels": 137,
-    "dead_sources_probes": 136
+    "known_sources_channels": 138,
+    "dead_sources_probes": 138
   },
   "sources": {
     "iptv_org": "https://github.com/iptv-org/iptv",
